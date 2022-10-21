@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.head-text-card {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.task1 {
+    display: flex;
+    margin-top: 40px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.task1:hover {
+    background-color: gainsboro;
+    transition: 0.4s;
+}
+
+.text-task-1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.del-button-task-1 {
+    padding: 5px 0px;
+    position: absolute;
+    margin-left: 455px;
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.del-button-task-1:hover {
+    background-color: #D63C27;
+    transition: 0.4s;
+
+}
+
+.del-button-task-1 .dbt-text-1:hover {
+    color: #fff;
+    transition: 0.4px;
+}
+
+.dbt-text-1 {
+    padding: 2px 4px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-left: 1px;
+    transition: 0.3s;
+}
+
+.input-block {
+    margin-top: 10px;
+    padding: 10px 10px;
+    min-height: 100%;
+}
+
+.input-1 {
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+}
+
+.input-1[type=text] {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 25px;
+}
+
+.ib-text-1 {
+    height: 34px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    float: right;
+    transition: 0.3s;
+}
+
+.ib-text-1:hover {
+    background-color: #D63C27;
+    color: #fff;
+    transition: 0.4s;
+}
